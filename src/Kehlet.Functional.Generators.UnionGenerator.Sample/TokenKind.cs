@@ -1,6 +1,6 @@
 ﻿namespace Kehlet.Functional.Generators.UnionGenerator.Sample;
 
-[AutoClosed(true)]
+[Union(true)]
 public partial record TokenKind
 {
     partial record Name(string Value);

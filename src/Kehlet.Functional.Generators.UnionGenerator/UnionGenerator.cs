@@ -13,7 +13,7 @@ namespace Kehlet.Functional.Generators.UnionGenerator;
 public class UnionGenerator : IIncrementalGenerator
 {
     private const string AttributeNamespace = "Kehlet.Functional";
-    private const string AttributeName = "AutoClosedAttribute";
+    private const string AttributeName = "UnionAttribute";
     private const string AttributeFullName = $"{AttributeNamespace}.{AttributeName}";
     
     public void Initialize(IncrementalGeneratorInitializationContext context)
