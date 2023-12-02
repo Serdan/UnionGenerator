@@ -3,7 +3,7 @@
   "profiles": {
     "DebugRoslynSourceGenerator": {
       "commandName": "DebugRoslynComponent",
-      "targetProject": "../AutoClosedUnionGenerator.Sample/AutoClosedUnionGenerator.Sample.csproj"
+      "targetProject": "../Kehlet.Functional.Generators.UnionGenerator.Sample/Kehlet.Functional.Generators.UnionGenerator.Sample.csproj"
     }
   }
 }
