@@ -14,7 +14,7 @@ public class UnionGeneratorTests
     private const string UnionClassText = """
         namespace TestNamespace;
         
-        [Kehlet.Functional.AutoClosed(true)]
+        [Kehlet.Functional.Union(true)]
         public partial record TokenKind
         {
             partial record Number(string Value);
@@ -22,7 +22,7 @@ public class UnionGeneratorTests
             partial record Minus;
         }
         
-        [Kehlet.Functional.AutoClosed]
+        [Kehlet.Functional.Union]
         public partial class Option<TValue>
         {
             partial class Some(TValue Value);
