@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kehlet.Functional.Generators.UnionGenerator", "src\Kehlet.Functional.Generators.UnionGenerator\Kehlet.Functional.Generators.UnionGenerator.csproj", "{7B2A80F3-6178-480B-B432-896F8CE28057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kehlet.Functional.Generators.UnionGenerator.Sample", "src\Kehlet.Functional.Generators.UnionGenerator.Sample\Kehlet.Functional.Generators.UnionGenerator.Sample.csproj", "{951B13E0-79B1-4A7F-BDB4-6BA44D7523FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kehlet.Functional.Generators.UnionGenerator.Tests", "src\Kehlet.Functional.Generators.UnionGenerator.Tests\Kehlet.Functional.Generators.UnionGenerator.Tests.csproj", "{0326B1CD-6011-423A-A712-82E7B1157AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2A80F3-6178-480B-B432-896F8CE28057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2A80F3-6178-480B-B432-896F8CE28057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2A80F3-6178-480B-B432-896F8CE28057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2A80F3-6178-480B-B432-896F8CE28057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951B13E0-79B1-4A7F-BDB4-6BA44D7523FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951B13E0-79B1-4A7F-BDB4-6BA44D7523FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951B13E0-79B1-4A7F-BDB4-6BA44D7523FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951B13E0-79B1-4A7F-BDB4-6BA44D7523FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0326B1CD-6011-423A-A712-82E7B1157AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0326B1CD-6011-423A-A712-82E7B1157AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0326B1CD-6011-423A-A712-82E7B1157AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0326B1CD-6011-423A-A712-82E7B1157AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
