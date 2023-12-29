@@ -254,7 +254,7 @@ public class UnionGenerator : IIncrementalGenerator
         namespace {{AttributeNamespace}};
 
         [AttributeUsage(AttributeTargets.Class)]
-        public class {{AttributeName}}(bool serializable = false) : Attribute
+        internal class {{AttributeName}}(bool serializable = false) : Attribute
         {
             public bool IsSerializable => serializable;
         }
